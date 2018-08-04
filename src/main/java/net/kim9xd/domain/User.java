@@ -39,4 +39,9 @@ public class User {
 	 	
 	 	return "If call User class, run this method?";
 	}
+	public void update(User newUser) {
+		this.password = newUser.password;
+		this.name = newUser.name;
+		this.email = newUser.email;
+	}
 }
